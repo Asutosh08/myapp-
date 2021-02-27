@@ -1,0 +1,33 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left{
+  padding-right: 100px;
+}
+.input-form{
+  display: flex;
+  flex-direction: column;
+}
+.box{
+  height: 40px;
+  width: 40px;
+  border: 2px solid black;
+}
+.right{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.box{
+  padding: 5px;
+  margin: 5px;
+}
+.change_color{
+  background-color: red;
+}
